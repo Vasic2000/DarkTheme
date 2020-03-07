@@ -1,20 +1,9 @@
 <resources>
     <!--Base app theme-->
-    <!--Light/Day Mode-->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">#2196F3</item>
-        <item name="colorPrimaryDark">#1976D2</item>
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="bacgroundcolor">#fcfcfc</item>
-        <item name="cardbackgroundcolor">#ffffff</item>
-        <item name="textcolor">#808080</item>
-        <item name="tintcolor">#000000</item>
-        <item name="buttoncolor">#2196F3</item>
-
-    </style>
-
     <!--Dark/Night Mode-->
     <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
         <item name="colorPrimary">#212121</item>
         <item name="colorPrimaryDark">#000000</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -26,9 +15,19 @@
 
     </style>
 
-    <style name="AppTheme.NoActionBar">
+    <!--Light/Day Mode-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="bacgroundcolor">#fcfcfc</item>
+        <item name="cardbackgroundcolor">#ffffff</item>
+        <item name="textcolor">#808080</item>
+        <item name="tintcolor">#000000</item>
+        <item name="buttoncolor">#2196F3</item>
+
     </style>
 
 </resources>
