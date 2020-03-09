@@ -52,27 +52,31 @@
                 android:textColor="?attr/textcolor"
                 android:textStyle="bold" />
 
-            <RadioButton
-                android:id="@+id/MyRadioButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="?attr/textcolor"
-                android:buttonTint="?attr/tintcolor"
-                android:text="RadioButton" />
-            <CheckBox
-                android:id="@+id/MyCheckBox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="?attr/textcolor"
-                android:buttonTint="?attr/tintcolor"
-                android:text="Check" />
             <Button
                 android:id="@+id/MyButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="?attr/buttoncolor"
-                android:text="Some battun"
-                android:textColor="#ffffff"/>
+                android:elevation="2dp"
+                android:backgroundTint="?attr/buttoncolor"
+                android:buttonTint="?attr/tintcolor"
+                android:text="Raised Button"
+                android:textColor="?attr/btnTextColor"/>
+
+            <Button
+                style="?attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/textcolor"
+                android:text="Flat Button" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button"
+                android:color="?attr/colorControlHighlight"
+                android:text="  Boarder Button  "
+                android:textColor="@android:color/holo_red_light" />
+
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 

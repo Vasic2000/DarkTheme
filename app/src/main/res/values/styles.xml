@@ -6,11 +6,12 @@
         <item name="windowNoTitle">true</item>
         <item name="colorPrimary">#212121</item>
         <item name="colorPrimaryDark">#000000</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">#cccccc</item>
         <item name="bacgroundcolor">#303030</item>
         <item name="cardbackgroundcolor">#424242</item>
         <item name="textcolor">#ffffff</item>
         <item name="tintcolor">#ffffff</item>
+        <item name="btnTextColor">#ffffff</item>
         <item name="buttoncolor">#2196F3</item>
 
     </style>
@@ -21,13 +22,17 @@
         <item name="windowNoTitle">true</item>
         <item name="colorPrimary">#2196F3</item>
         <item name="colorPrimaryDark">#1976D2</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">#2196F3</item>
         <item name="bacgroundcolor">#fcfcfc</item>
         <item name="cardbackgroundcolor">#ffffff</item>
         <item name="textcolor">#808080</item>
         <item name="tintcolor">#000000</item>
+        <item name="btnTextColor">#ffffff</item>
         <item name="buttoncolor">#2196F3</item>
 
     </style>
+
+   <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+   <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
