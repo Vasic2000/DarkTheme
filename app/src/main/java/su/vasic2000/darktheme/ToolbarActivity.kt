@@ -1,5 +1,7 @@
 package su.vasic2000.darktheme
 
-class ToolbarActivity {
+import androidx.appcompat.app.AppCompatActivity
+
+class ToolbarActivity : AppCompatActivity() {
 
 }
